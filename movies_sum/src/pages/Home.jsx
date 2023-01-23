@@ -22,13 +22,13 @@ export const Home = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Melhores Filmes</h2>
-      <div>
+    <S.Container>
+      <S.Title>Melhores Filmes</S.Title>
+      <S.MoviesContainer>
         {topMovies.length === 0 && <p>Carregando...</p>}
         {topMovies.length > 0 &&
           topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
-      </div>
-    </div>
+      </S.MoviesContainer>
+    </S.Container>
   );
 };

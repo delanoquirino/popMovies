@@ -19,7 +19,5 @@ export const GlobalStyle = createGlobalStyle`
       color: #68bd7b;
     }
 
-    .container {
-      
-    }
+    
 `;

@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { MagnifyingGlass, Popcorn } from "phosphor-react";
+import { Binoculars, Popcorn } from "phosphor-react";
 
 import * as S from "./styles";
 
@@ -15,7 +16,7 @@ export const Navbar = () => {
       <S.Form>
         <input type="text" placeholder="Pesquisar um filme" />
         <button type="submit">
-          <MagnifyingGlass size={28} color="#181611" weight="thin" />
+          <Binoculars size={28} color="#181611" />
         </button>
       </S.Form>
     </S.Navbar>
