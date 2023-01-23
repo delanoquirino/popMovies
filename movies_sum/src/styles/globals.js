@@ -18,4 +18,8 @@ export const GlobalStyle = createGlobalStyle`
     a:hover {
       color: #68bd7b;
     }
+
+    .container {
+      
+    }
 `;
