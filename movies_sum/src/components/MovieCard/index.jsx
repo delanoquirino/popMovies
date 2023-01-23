@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
+import { Star } from "phosphor-react";
+
 const imageUrl = import.meta.env.VITE_IMG;
 
-export const MovieCard = ({ movie }) => {
+export const MovieCard = ({ movie, showLink = true }) => {
   return (
     <div>
       <img src={imageUrl + movie.poster_path} alt={movie.title} />
