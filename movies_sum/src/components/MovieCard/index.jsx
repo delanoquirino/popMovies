@@ -14,7 +14,7 @@ export const MovieCard = ({ movie, showLink = true }) => {
       <S.MovieInfo>
         <h2>{movie.title}</h2>
         <p>
-          <Star size={16} color="#ffe485" weight="thin" /> {movie.vote_average}
+          <Star size={16} color="#ffe485" weight="fill" /> {movie.vote_average}
         </p>
         {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
       </S.MovieInfo>
