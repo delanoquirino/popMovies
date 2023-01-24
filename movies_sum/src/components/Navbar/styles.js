@@ -11,6 +11,12 @@ export const Navbar = styled.nav`
     align-items: center;
     gap: 0.5rem;
   }
+
+  @media screen and (max-width: 485px) {
+    a {
+      display: none;
+    }
+  }
 `;
 
 export const Form = styled.form`
