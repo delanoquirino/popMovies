@@ -4,7 +4,7 @@ import { Binoculars, Popcorn } from "phosphor-react";
 
 import * as S from "./styles";
 
-export const Navbar = () => {
+export const NavBar = () => {
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
 
@@ -17,7 +17,7 @@ export const Navbar = () => {
   };
 
   return (
-    <S.Navbar>
+    <S.Navb>
       <h2>
         <Link to="/">
           <Popcorn size={28} color="#78e08f" weight="thin" />
@@ -35,6 +35,6 @@ export const Navbar = () => {
           <Binoculars size={28} color="#181611" />
         </button>
       </S.Form>
-    </S.Navbar>
+    </S.Navb>
   );
 };
