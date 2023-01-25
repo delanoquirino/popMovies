@@ -5,6 +5,7 @@ export const MoviePage = styled.div`
   flex-direction: column;
   max-width: 1200px;
   margin: 2rem auto;
+  padding: 1rem;
 `;
 export const FilmImage = styled.div`
   margin: 0 auto;

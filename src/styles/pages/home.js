@@ -16,5 +16,4 @@ export const MoviesContainer = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   gap: 3rem 3rem;
-  padding: 0.5rem;
 `;
