@@ -18,7 +18,6 @@ export const ContainerImg = styled.div`
     width: 200px;
     height: 310px;
     border-radius: 18px;
-    transition: all 0.5s ease-in-out;
   }
 `;
 
@@ -31,6 +30,7 @@ export const MovieInfo = styled.div`
 
   p {
     margin: 0;
+    display: flex;
   }
 
   h2 {

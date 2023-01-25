@@ -11,13 +11,16 @@ export const MovieCard = ({ movie, showLink = true }) => {
       <S.ContainerImg>
         <img src={imageUrl + movie.poster_path} alt={movie.title} />
       </S.ContainerImg>
-      <S.MovieInfo>
-        <h2>{movie.title}</h2>
-        <p>
-          <Star size={16} color="#ffe485" weight="fill" /> {movie.vote_average}
-        </p>
-        {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
-      </S.MovieInfo>
+      {showLink && (
+        <S.MovieInfo>
+          <h2>{movie.title}</h2>
+          <p>
+            <Star size={16} color="#ffe485" weight="fill" />
+            {movie.vote_average}
+          </p>
+          <Link to={`/movie/${movie.id}`}>Detalhes</Link>
+        </S.MovieInfo>
+      )}
     </S.Card>
   );
 };
