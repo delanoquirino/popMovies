@@ -48,3 +48,8 @@ export const InfoDescription = styled.div`
     line-height: 1.4rem;
   }
 `;
+
+export const Back = styled.div`
+  display: flex;
+  justify-content: center;
+`;

@@ -1,6 +1,6 @@
-import { Clock, FileText, TrendUp, Wallet } from "phosphor-react";
+import { Clock, FileText, House, TrendUp, Wallet } from "phosphor-react";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { MovieCard } from "../components/MovieCard";
 
 import * as S from "../styles/pages/movie";
@@ -72,6 +72,11 @@ export const Movie = () => {
           </S.InfoDescription>
         </>
       )}
+      <S.Back>
+        <Link to="/">
+          <House size={28} color="#78e08f" weight="thin" />
+        </Link>
+      </S.Back>
     </S.MoviePage>
   );
 };
