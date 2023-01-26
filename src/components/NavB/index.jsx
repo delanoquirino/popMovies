@@ -4,7 +4,7 @@ import { Binoculars, Popcorn } from "phosphor-react";
 
 import * as S from "./styles";
 
-export const NavBar = () => {
+export const NavB = () => {
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
 
