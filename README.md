@@ -19,5 +19,9 @@ Projeto com React, consumindo a API do TMDB com o uso do fetch.
 ### Layout
 
 ![Layout](public/pop_movies1.png)
-![](public/pop_movies2.png)
-![Mobile](public/pop-movies3.png)
+![Layout](public/pop_movies2.png)
+
+### Mobile
+
+![Mobile](public/pop_movies3.png)
+
