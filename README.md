@@ -1,5 +1,5 @@
 # PopMovies
-Projeto com React, consumindo a API do TMDB com o uso do fetch.
+Project with React, consuming the TMDB API using fetch.
 
 ### Demo
 
