@@ -1,4 +1,4 @@
-# popMovies
+# PopMovies
 Projeto com React, consumindo a API do TMDB com o uso do fetch.
 
 ### Demo
@@ -19,5 +19,5 @@ Projeto com React, consumindo a API do TMDB com o uso do fetch.
 ### Layout
 
 ![layout](public/pop_movies1.png)
-(public/pop_movies2.png)
-(public/pop_movies3.png)
+!(public/pop_movies2.png)
+!(public/pop_movies3.png)
