@@ -27,7 +27,7 @@ export const Search = () => {
   return (
     <S.Container>
       <S.Title>
-        Resultados para: <S.QueryText>{query}</S.QueryText>
+        Resultados: <S.QueryText>{query}</S.QueryText>
       </S.Title>
       <S.MoviesContainer>
         {movies.length > 0 &&
